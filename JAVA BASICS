@@ -1,0 +1,57 @@
+1. When learning a new language, we first learn to output some message. Here, we'll start with the famous Hello World message. 
+Now, here you are given a function to complete. 
+Don't worry about the ins and outs of functions, just add the command (System.out.print("Hello World")) to print Hello World.
+
+Ans:
+class Geeks{
+    
+    // Function to print hello
+    static void printHello(){
+        
+    System.out.println("Hello World");
+        
+    }
+    
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+2.Learn to Comment - Java
+Comments are very useful in any language to tell users what is the task of any function or operation. The comments are neglected by the compiler, so whatever you write in the comments won't have any effect on the working of a code. In Java, comments can be written as mentioned below:
+/*This is a comment*/
+//This is also a comment
+You are given a complete function that outputs a, b, and c. Comment the code that outputs b, so only a and c gets printed.
+Ans:
+class Geeks{
+    
+    // Function to print a and c
+    //comment the line that outputs b
+    static void comment(int a, int b, int c){
+        
+        //Prints a
+        System.out.println(a);
+        //Prints b
+        //System.out.println(b);
+        //Prints c
+        System.out.println(c);
+    }
+    
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+3.Print GeeksForGeeks
+You are given a print() function that outputs two statements one is "Hello World" and another "GeeksForGeeks". Comment the code that outputs "Hello World", so that "GeeksForGeeks" gets printed.
+Ans:
+class Geeks{
+    
+    //comment the line that outputs "Hello World"
+    static void print(){
+        
+        //Prints Hello World
+        //System.out.println("Hello World");
+        //Prints GeeksForGeeks
+        System.out.println("GeeksForGeeks");
+      
+    }
+    
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
