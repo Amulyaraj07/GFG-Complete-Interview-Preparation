@@ -1,0 +1,130 @@
+1.Taking input - Java
+Before implementing any algorithm, we should be thorough with taking inputs. Here, we will learn how to read inputs.
+You are given five inputs: a(integer), b(float ), c(long), d(byte), and s(string) respectively. You need to take the input and print a, b, c, d, and s in a new line.
+
+In the code, variable t represents the total number of inputs during execution.
+Ans:
+class Geeks{
+    
+    // Function to take input using Scanner class
+    static void IOFunction() {
+        Scanner sc = new Scanner(System.in);
+        int t = sc.nextInt(); // Read the number of test cases
+        sc.nextLine(); // Consume the newline character after the integer input
+
+        while(t-- > 0) {
+            // Reading inputs for each test case
+            int a = sc.nextInt();
+            float b = sc.nextFloat();
+            long c = sc.nextLong();
+            byte d = sc.nextByte();
+            sc.nextLine(); // Consume the leftover newline character
+            String s = sc.nextLine();
+            
+            // Printing outputs for each test case
+            System.out.println(a);
+            System.out.println(b);
+            System.out.println(c);
+            System.out.println(d);
+            System.out.println(s);
+        }
+}
+    
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+2.Input Integer
+Given an integer, you need to input it. The integer will then be printed after adding 10.
+Ans:
+int myInput=scn.nextInt();
+//Complete the code
+System.out.println(myInput + 10);
+//scn.close();
+///////////////////////////////////////////////////////////////////////////////////////////////
+3.Input String
+Given a text in the form of a string, you need to input it. The text will then be printed.
+Ans:
+String myInput =read.readLine();
+        
+//Complete the below code
+    
+System.out.println(myInput);
+
+//read.close();
+//////////////////////////////////////////////////////////////////////////////////////////////////
+4.Input Floating Number
+Given a floating number, you need to input it. The floating number will then be printed after multiplying it by 10.
+Ans:
+double myInput=scn.nextDouble();
+//Complete the code
+System.out.println(myInput * 10);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+5.Print With Space
+Given two inputs that are store in variables a and b, you need to print a and b in a single line with a space separating them.
+Ans:
+public static void utility(String a, String b){
+
+    //Write your code below that prints a <space> b
+    
+    System.out.println(a+" "+b);
+    
+    //Write your code below that prints a <space> b
+
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////
+6.Print Statement
+Given an input, you need to print it and move the cursor to the next line.
+Ans:
+public static void utility(String MyInput){
+    //Write your code below that prints myInput
+    System.out.println(MyInput);
+
+    //Write your code below that prints myInput
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+7.Print Without Newline
+As we have seen, the System.out.println() statement automatically appends a new line to our output. Here, we'll learn how to prevent that.
+You are given two string variables a and b, and you have to print a and b with a space between them. However, you must prevent the print statement from providing a new line as the new line will be given by the main driver code.
+Ans:
+public static void utility(String a, String b){
+     
+    //Write your code below. 
+    System.out.print(a+" ");
+    System.out.print(b);
+
+    //Write your code below.
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////
+8.Print With Separator
+You'll be given two strings a and b, a separator symbol, and you need to print a and b such that a and b are separated by the separator symbol followed by a new line.
+Ans:
+public static void utility(String a, String b, String separator){
+
+    //Your code below
+    System.out.println(a+separator+b);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////
+9.Print Without Space
+Given two inputs that are stored in variables a and b, you need to print a and b in a single line without space betweenthem.
+Note: Must print end of the line after printing a and b.
+Ans:
+public static void utility(String a, String b){
+
+        //Write your code below that prints ab
+System.out.println(a+b);
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+10.TypeCast And Double It
+Given an input num as a string. You need to typecast into an integer and double it.
+Ans:
+public static void utility(String num){
+    
+    //Complete the syntax below. Convert num to int and double it
+    int ans =Integer.parseInt(num);
+            
+    System.out.println(ans*2);
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
